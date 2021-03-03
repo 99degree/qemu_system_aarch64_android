@@ -9,7 +9,7 @@ Win10 NAT--|
 CONSOLE----|
 
 init.rc Android init rc, added service to enable console and network/adb via network, also enable coredump
-shell.sh setup busybox/network for guest(Android) to forward host port 5555/5554 to guest.
+shell.sh setup busybox/network for guest(Android) to forward host port '5555/5554' to guest.
 qemu.cmd launcher for qemu-system-aarch64.exe
 Image.gz kernel for testing
 twrp.350_mod.img.gz for testing
